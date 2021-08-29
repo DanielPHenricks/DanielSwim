@@ -1,0 +1,14 @@
+.fade-in {
+    opacity: 50%;
+    transition:opacity 0.8s
+    }
+    
+    .fade-in:hover {
+    opacity:100%;
+    transition:opacity 0.5s
+    }
+#danielCustom{
+    
+    background-image: url("test.png");
+    background-color: lightblue;
+}

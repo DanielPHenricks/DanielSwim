@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- coded by Daniel Henricks -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DanielSwim.com, a website for swim lessons by Daniel Henricks. Sign up for lessons, view tutorials, read blogs, watch videos, and more!">
+    <meta property="og:site_name" content="Daniel Swim"/>
+    <meta property="og:title" content="DanielSwim.com | Swim Lessons and Tutorials"/>
+    <meta property="og:description" content="DanielSwim.com, a website for swim lessons by Daniel Henricks. Sign up for lessons, view tutorials, read blogs, watch videos, and more!"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://danielswim.com/download.png"/>
+    <meta property="og:locale" content="en_US"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet"
+      href="atom-one-dark.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <title>DanielSwim.com | Swim Lessons and Tutorials</title>
+</head>
+<body>
+    <nav class="navbar dark navbar-expand-lg navbar-dark py-1 fixed-top">
+    <div class="container">
+    <a href="https://danielswim.com" class="navbar-brand">DanielSwim.com</a>
+    <button class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav mr-auto">
+                <li>
+                    <a class="nav-link" href="https://danielswim.com">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/about">About Me / FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/payment">Payment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/images">Photo Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/register">Register</a>
+                </li>     
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danielswim.com/videos">Videos</a>
+                </li>
+                </ul>
+                <!-- Links -->
+        </div>
+    </div>
+</nav>
+<!-- Script for code IDEs -->
+<script>hljs.highlightAll();</script>
+<!-- end script -->
+<pre><code class="hljs language-java p-4">
+//the renowned interview problem
+public class LinkedListTest {
+    public static void main(String[] args) {
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+       System.out.println(reverseList(head).next.toString());
+    }
+    public static ListNode reverseList(ListNode head){
+        ListNode prev = null;
+        while(head != null){
+            ListNode nextNode = head.next;
+            head.next = prev;
+            prev = head;
+            head = nextNode;
+        }
+        return prev;
+    }
+}
+class ListNode{
+    int val;
+    ListNode next;
+    ListNode(int x){
+        val = x;
+    }
+    public String toString(){
+        return val + "";
+    }
+}
+</pre></code>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
