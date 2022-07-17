@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.dark{
+    background-color: rgba(11, 72, 90, 0.884);
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.main-bg{
+    background-color: rgba(105, 187, 212, 0.884);
+}
+.accent{
+    color:whitesmoke
+}
+.now{
+    color: rgb(102, 110, 117);
+}
+.accentDark{
+    color:rgba(105, 187, 212, 0.884);
+}
+.btn-primary {
+    background-color:rgba(11, 72, 90, 0.884);;
+    color: #FFF;
+    border-color: #43484d;
+    border-radius: 25px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active    {
+    background-color: #fff;
+    color: rgba(105, 187, 212, 0.884);
+    border-color: #285e8e;
+}
+.btn-default {
+    background-color: #FFF;
+    color: #333;
+    border-color: #adadad;
+    border-radius: 25px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active    {
+    background-color: #949393;
+    color: #333;
+    border-color: #adadad;
+}
+.half-circle {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 10px solid gray;
+    border-bottom: 0;
+}
+.wave{
+    background-image: url('../waves/wave.svg');
+    }
+.wave2{
+    background-image: url('../waves/wave2.svg');
+}
+.wave3{
+    background-image: url('../waves/wave3.svg');
+}
