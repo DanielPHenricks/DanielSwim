@@ -1,125 +1,164 @@
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
+<!DOCTYPE html>
+<html>
 
-  gtag("config", "G-B4G72FZ44W");
-</script>
 <head>
-  <!-- All code written by Daniel Henricks, last edited July 20th, 2020. Thanks! -->
-  <head>
-    <title>Find A Recipe!</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- import the webpage's stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- import the webpage's javascript file -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/script.js" defer></script>
-  </head>
-  <body style="background-color: white">
-    <nav
-      style="background-color: lightblue"
-      class="navbar navbar-expand-lg navbar-light"
-    >
-      <a class="navbar-brand" href="#">My Projects</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="https://danielswim.com"
-            >Back to DanielSwim.com</a
-          >
-        </div>
-      </div>
-    </nav>
-    <div class="card-group">
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="https://cdn.glitch.com/6b1af74f-a084-49b1-a0be-766ba22b70af%2Fapples%20to%20apples.PNG?v=1618236945878"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title">
-            <a href="http://applestoappl.es">applestoappl.es</a>
-          </h5>
-          <p class="card-text">
-            An online Apples to Apples game I made to play over Zoom!
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Made in January 2021</small>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="https://cdn.glitch.com/6b1af74f-a084-49b1-a0be-766ba22b70af%2Fbrisket.PNG?v=1618244519627"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title">
-            <a href="https://cooktherecipe.com">Find A Recipe</a>
-          </h5>
-          <p class="card-text">
-            Search hundreds of thousands of recipes, for free and with no ads!
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Made in April 2021</small>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          class="card-img-top"
-          src="https://cdn.glitch.com/6b1af74f-a084-49b1-a0be-766ba22b70af%2Fcalc.PNG?v=1618237273465"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://danielswim.com/calculator">Calculator</a></h5>
-          <p class="card-text">
-            A simple calculator I made in React.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Made in March 2021</small>
-        </div>
-      </div>
-    </div>
-  </body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="DanielSwim.com, a website for swim lessons by Daniel Henricks. Sign up for lessons, view tutorials, read blogs, watch videos, and more!">
+    <meta property="og:site_name" content="Daniel Swim" />
+    <meta property="og:title" content="DanielSwim.com | Swim Lessons and Tutorials" />
+    <meta property="og:description"
+        content="DanielSwim.com, a website for swim lessons by Daniel Henricks. Sign up for lessons, view tutorials, read blogs, watch videos, and more!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://danielswim.com/download.png" />
+    <meta property="og:locale" content="en_US" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="../style.css" rel="stylesheet">
+    <title>Daniel Henricks</title>
 </head>
+
+<body>
+    <!-- Welcome -->
+    <section class="main-bg text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="m-4">
+                    <h2>My projects - <span class="accent">Daniel Henricks</span></h2>
+                    <p class="lead my-4 lato">Here are a few of the projects I have worked on.</p>
+                </div>
+                <img src="coverphoto.jpg" class="img-fluid w-50 d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                    <h2><a href="https://chrome.google.com/webstore/detail/vandy-tab/befgelkhbgjimohleahhgkcnfnjdgfio">Vandy
+                            Tab</a></h2>
+                    <p class="lead my-4">
+                    <ul>
+                        <li>A Chrome extension for Vanderbilt students and faculty</li>
+                        <li>Contains live updates to dining hall status and upcoming sports games</li>
+                        <li>Built in Svelte + JavaScript + Bootstrap (CSS)</li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="vandytab.PNG" class="img-fluid w-50 d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="main-bg text-dark p-5 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                    <h2><a href="https://danielswim.com/evaluations?name=Daniel">Automatic swim lesson evaluation
+                            system</a></h2>
+                    <p class="lead my-4">
+                    <ul>
+                        <li>Uses React and Bootstrap along with modern JS features</li>
+                        <li>Allows for custom JSON input per swimmer, making accessing evaluations simple</li>
+                        <li>Mobile-first design</li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="eval.PNG" class="img-fluid w-50 d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                    <h2><a href="https://danielswim.com">DanielSwim.com</a></h2>
+                    <p class="lead my-4">
+                    <ul>
+                        <li>My main project: I developed this website for my swim lesson business</li>
+                        <li>Coded in Bootstrap; working on migrating over to React</li>
+                        <li>15k site visitors per year</li>
+                    </ul>
+                    </p>
+                </div>
+                <img src="danielswim.PNG" class="img-fluid w-50 d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Cards -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text-light m-2">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <h3 class="card-title">
+                                Other assorted projects
+                            </h3>
+                            <p class="card-text">
+                                See my GitHub for more projects!
+                            </p>
+                            <a href="https://github.com/DanielPHenricks?tab=repositories" class="btn btn-primary">See
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card dark text-light m-2">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-blockquote-left"></i>
+                            </div>
+                            <h3 class="card-title">
+                                Resume
+                            </h3>
+                            <p class="card-text">
+                                See my current resume
+                            </p>
+                            <a href="Resume.pdf" class="btn btn-default">Click Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light m-2">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-play-btn"></i>
+                            </div>
+                            <h3 class="card-title">
+                                Code Walkthrough
+                            </h3>
+                            <p class="card-text">
+                                See an in-depth explanation of how I coded an evaluation system!
+                            </p>
+                            <a href="https://www.youtube.com/watch?v=rFnO-q_A66o" class="btn btn-primary">Watch Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Links -->
+    <div class="spacer wave2"></div>
+    <section class="bg-dark p-2 text-center text-sm-start" style="max-width: 100%;">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h6 class="lato accent mb-3 mb-md-0">Coded with <span class="accentDark">&#60;3</span> by Daniel
+                    Henricks.</h6>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
