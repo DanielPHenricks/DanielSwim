@@ -1,0 +1,390 @@
+[
+    {
+        "name": "Daniel",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "22.83s",
+        "powerPoints": 620
+    },
+    {
+        "name": "Aydin",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "35.50s"
+    },
+    {
+        "name": "Kaan",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 2, 0]
+    },
+    {
+        "name": "Emilia",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "50.25s",
+        "powerPoints": 1
+    },
+    {
+        "name": "Adam",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 0, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [0, 0, 0, 0, 0, 0]
+    },
+
+    {
+        "name": "Vedha",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 2, 0]
+    },
+
+    {
+        "name": "Vihaan",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+
+    {
+        "name": "Rishi",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+
+    {
+        "name": "Diana",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Rhett",
+        "year": 2021,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 0, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Rhett",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Reese",
+        "year": 2021,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 2, 0]
+    },
+    {
+        "name": "Reese",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "42.33s",
+        "powerPoints": 113
+    },
+    {
+        "name": "Ryan",
+        "year": 2021,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 1, 2, 2, 0]
+    },
+    {
+        "name": "Ryan",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "38.50s",
+        "powerPoints": 290
+    },
+    {
+        "name": "Lizzie",
+        "year": 2021,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Lizzie",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "47.50s"
+    },
+    {
+        "name": "Ally",
+        "year": 2021,
+        "basicScores": [2, 2, 3, 0],
+        "freeScores": [3, 0, 0, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 0, 0, 0]
+    },
+    {
+        "name": "Ally",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Pax",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Jordan",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Tiffany",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Ella",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "1:05.25",
+        "powerPoints": 1
+    },
+    {
+        "name": "Kai",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 0, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Cade",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 0, 1, 2, 0, 0]
+    },
+    {
+        "name": "Hannah",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Simon",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 0, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Nico",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 0],
+        "freeTime": "48.50s"
+    },
+    {
+        "name": "Luca",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Ellis",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "52.50s"
+    },
+    {
+        "name": "Ada",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Evie",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 1, 2, 0, 0]
+    },
+    {
+        "name": "Oliver",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 2],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Adam W",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "38.25s",
+        "powerPoints": 293
+    },
+    {
+        "name": "Alex W",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Griffin",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Graham",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 1, 2, 2, 0]
+    },
+    {
+        "name": "Ricky",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "40.25s",
+        "powerPoints": 180
+    },
+    {
+        "name": "Abby",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "37.00s",
+        "powerPoints": 320
+    },
+    {
+        "name": "Macy",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 0],
+        "freeTime": "49.50s"
+    },
+    {
+        "name": "Davis",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 0, 0, 0],
+        "backScores": [3, 3, 0, 0],
+        "otherScores": [2, 0, 0, 0, 0, 0],
+        "freeTime": "49.50s"
+    },
+    {
+        "name": "Hayes",
+        "year": 2022,
+        "basicScores": [2, 2, 0, 0],
+        "freeScores": [3, 0, 0, 0, 0],
+        "backScores": [3, 0, 0, 0],
+        "otherScores": [2, 0, 0, 2, 0, 0]
+    },
+    {
+        "name": "Grayson",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 0],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "39.37s"
+    },
+    {
+        "name": "Xander",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 0, 0],
+        "backScores": [3, 3, 3, 0],
+        "otherScores": [2, 2, 0, 2, 0, 0]
+    },
+    {
+        "name": "Ryan F",
+        "year": 2022,
+        "basicScores": [2, 2, 3, 3],
+        "freeScores": [3, 5, 5, 5, 2],
+        "backScores": [3, 3, 3, 1],
+        "otherScores": [2, 2, 1, 2, 2, 1],
+        "freeTime": "42.97s"
+    }
+]

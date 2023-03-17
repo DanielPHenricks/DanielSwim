@@ -1,0 +1,19 @@
+ 
+    .a{
+      height:20vw;
+      width:20vw;
+      border-radius:50%;
+      background: conic-gradient(
+          var(--color) calc(var(--degree)), transparent calc(var(--degree) + 0.5deg) 100%);
+    
+    }
+    
+    .b{
+      height:84%;
+      width:84%;
+      top:8%;
+      left:8%;
+      position:relative;
+      border-radius:50%;
+      background-color: rgb(105, 187, 212);
+    }
